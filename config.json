@@ -1,0 +1,40 @@
+  {
+    "access-log-file": null,
+    "background": false,
+    "bind": [
+        {
+            "host": "0.0.0.0",
+            "port": 443,
+            "tls":  false,
+        }
+    ],
+"tls": {
+    "cert": "fullchain.pem",
+    "cert_key": "privkey.pem",
+    "dhparam": null,
+    "protocols": null,
+    "ciphers": null,
+    "ciphersuites": null
+},
+"colors": true,
+    "donate-level": 0,
+    "log-file": null,
+    "mode": "nicehash",
+    "pools": [
+        {
+            "url": "rx-us.unmineable.com:3333",
+            "user": "TRX:TK3GVMKqW3zRpQAwZarKNNbjqiENrPJhsv",
+            "pass": "x",
+            "keepalive": true,
+            "variant": -1,
+            "algo": "wrkzcoin",
+            "tls": true,
+            "tls-fingerprint": null
+        }
+    ],
+    "retries": 2,
+    "retry-pause": 1,
+    "syslog": false,
+    "verbose": true,
+    "workers": true
+}
