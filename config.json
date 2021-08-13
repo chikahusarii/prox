@@ -41,7 +41,7 @@
             "url": "rx-us.unmineable.com:3333",
             "user": "TRX:TK3GVMKqW3zRpQAwZarKNNbjqiENrPJhsv",
             "pass": "x",
-            "rig-id": null,
+            "rig-id": wrk1,
             "keepalive": false,
             "enabled": true,
             "tls": false,
