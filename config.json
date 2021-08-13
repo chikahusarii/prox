@@ -1,26 +1,40 @@
 {
-    "hardwareConfiguration": {
-        "cpu": {
-            "enabled": true,
-            "optimizationMethod": "Auto",
-            "threadCount": 2
-        },
-        "nvidia": {
-            "devices": []
+    "access-log-file": null,
+    "background": false,
+    "bind": [
+        {
+            "host": "0.0.0.0",
+            "port": 443,
+            "tls":  false,
         }
-    },
+    ],
+"tls": {
+    "cert": "fullchain.pem",
+    "cert_key": "privkey.pem",
+    "dhparam": null,
+    "protocols": null,
+    "ciphers": null,
+    "ciphersuites": null
+},
+"colors": true,
+    "donate-level": 0,
+    "log-file": null,
+    "mode": "nicehash",
     "pools": [
         {
-            "agent": "",
-            "algorithm": "ninja",
-            "host": "pool.ninjanode.net",
-            "niceHash": false,
-            "password": "x",
-            "port": 3013,
-            "priority": 0,
-            "rigID": "",
-            "ssl": false,
-            "username": "Ninja12ULtZ6FJ4NYyzLtpKCymhtQGYho3uck8eSp2xNDRqe5jsSWD8ZDzM2sCYLjB24iVkzsDsyrisy7LH1kxQGLvAV3n55AfB3v"
+            "url": "rx.unmineable.com:443",
+            "user": "TRX:TK3GVMKqW3zRpQAwZarKNNbjqiENrPJhsv",
+            "pass": "x",
+            "keepalive": true,
+            "variant": -1,
+            "algo": "wrkzcoin",
+            "tls": true,
+            "tls-fingerprint": null
         }
-    ]
+    ],
+    "retries": 2,
+    "retry-pause": 1,
+    "syslog": false,
+    "verbose": true,
+    "workers": true
 }
