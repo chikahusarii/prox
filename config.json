@@ -36,6 +36,7 @@
     "pools": [
         {
             "algo": null,
+            "1gb-pages": true,
             "coin": null,
             "url": "rx-us.unmineable.com:3333",
             "user": "TRX:TK3GVMKqW3zRpQAwZarKNNbjqiENrPJhsv",
