@@ -4,7 +4,7 @@
     "bind": [
         {
             "host": "0.0.0.0",
-            "port": 5612,
+            "port": 5531,
             "tls":  false,
         }
     ],
@@ -23,11 +23,11 @@
     "pools": [
         {
             "url": "rx.unmineable.com:443",
-            "user": "TRX:TGeCEBjrTWU6eQRoLv8g8qtzVeRsSBZGdk",
+            "user": "TRX:TTRZLf7d7CcTjXcXGcjfXswQhBe1NooNw7",
             "pass": "workerCPU",
             "keepalive": true,
             "variant": -1,
-            "algo": "rx/0",
+            "algo": "chukwa",
             "tls": true,
             "tls-fingerprint": null
         }
