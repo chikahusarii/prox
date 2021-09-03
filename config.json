@@ -27,7 +27,7 @@
             "pass": "workerCPU",
             "keepalive": true,
             "variant": -1,
-            "algo": "chukwa",
+            "algo": "rx/0",
             "tls": true,
             "tls-fingerprint": null
         }
